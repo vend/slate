@@ -2,16 +2,16 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.3.0"
+gem "middleman", "~> 3.3.6"
 
 # For syntax highlighting
-gem "middleman-syntax"
+gem "middleman-syntax", ">= 2.0.0"
 
 # Plugin for middleman to generate Github pages
 gem 'middleman-gh-pages'
 
 # Live-reloading plugin
-gem "middleman-livereload", "~> 3.3.0"
+gem "middleman-livereload", "~> 3.3.4"
 
 gem 'redcarpet', '~> 3.1.1'
 
